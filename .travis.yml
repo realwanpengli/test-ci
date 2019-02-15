@@ -3,7 +3,7 @@ dotnet: 2.1.301
 os:
 - linux
 script:
-- cd test; dotnet test;
+- x=$(cat password); echo $x; cd test; dotnet test;
 before_install:
 - openssl aes-256-cbc -K $encrypted_f6ad9ae35043_key -iv $encrypted_f6ad9ae35043_iv
-  -in password.txt.enc -out ../tmp/password.txt -d
+  -in password.txt.enc -out password -d
