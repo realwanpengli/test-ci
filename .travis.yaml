@@ -1,3 +1,6 @@
 language: csharp
+dotnet: 2.1.301
+os:
+- linux
 script:
 - "cd test; dotnet test;"
