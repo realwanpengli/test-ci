@@ -8,6 +8,7 @@ namespace test
     {
         [Fact]
         public void Test1()
+
         {
             var aInstance = new A();
             Assert.Equal(1, aInstance.a);
