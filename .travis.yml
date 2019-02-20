@@ -7,7 +7,7 @@ mono: none
 os:
 - linux
 script:
-- echo $SOMEVAR; cd test; dotnet test;
+- x=(echo $SOMEVAR); echo $x; cd test; dotnet test;
 env:
   global:
     secure: NQzxDH3HpHsnpzcZyNSWfhq+Cshkng25ZsGr5vAsXeXw0KvHaSoWKJ0WqBiwcpUvigyA1OIaCPXUmq1yebVw1lV9HsUUMybL2TH2Qykg+kuxDSX2Awv1sQ8S355AdhEXnbsG/U0cpmfvfHNtp0ZwhzKf6SgmN7s3ry4ngAG0w7Fs7+FsbYyEUHVox/cG1znlaT9JFzjxdTkXfBINTnQvxWYIBcl83GWwFVwt5754sFu7qW72/f1q0pXI4Ut9FzblMH8cpUnqbKsjplbjr5FDz6ZqiNUWiDykjFYUt59e5+YvgpY4j5/DTgT2O9Wlylf0MhUDlzixdGeUKMRt3GDO0m6pzZc034BqYzf3Wf6SqkufRIR5ztLqACwCKld8dTMmUk4VPQn+lL/5nG0ognNy6QPen6W4yvLMWBUwFp94hZ3RiGZJky8TNeBAh9E5gITw+qbMeqBbJKhIeOFXueyY4Laqy5R18/To/qvKQ8a2lD9gaIChVCTzqVFBgmay7llUrA06+BvNKns/hFWylXGJmbdvzecIHvP7R+UBmOGCekQ3/pFk2tFV7cvzmu96uZCbtJjqs9nO+qRoa0daNE5/H3zkA+YV0M86seM9OaT6fg5mZQkxAFii9r63V4zLMsZMUh840quE0ZIRg/0PecC2sZTn9IxX/L6qyCiRDpofSkw=
