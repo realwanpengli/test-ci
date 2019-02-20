@@ -1,5 +1,9 @@
 language: csharp
 dotnet: 2.1.301
+branches:
+  only:
+  - master
+mono: none
 os:
 - linux
 script:
