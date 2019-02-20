@@ -11,7 +11,8 @@ namespace console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var val = Environment.GetEnvironmentVariable("SOMEVAR");
+            Console.WriteLine($"Hello World! {val}");
 
         }
     }
